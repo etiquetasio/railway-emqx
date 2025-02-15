@@ -1,6 +1,5 @@
-FROM etiquetasio/emqx:4.4.16	
+FROM docker.io:etiquetasio/emqx:4.4.16	
 
-#TODO(sm): include TLS certificates
 
 COPY docker-entrypoint.sh /usr/bin/
 COPY docker-healthcheck /usr/local/bin/
