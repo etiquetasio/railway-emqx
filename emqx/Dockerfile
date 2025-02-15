@@ -1,6 +1,4 @@
-FROM docker.io:etiquetasio/emqx:4.4.16	
-
-
+FROM etiquetasio/emqx:4.4.16	
 COPY docker-entrypoint.sh /usr/bin/
 COPY docker-healthcheck /usr/local/bin/
 COPY bin/emqx /opt/emqx/bin/emqx
