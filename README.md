@@ -32,11 +32,11 @@ This template exposes 1883 TCP port directly from emqx service.
 
 ### How to Deploy on RailWay
 
-1 - Clone this Repo to you Github Account
-2 - Edit the file /etc/plugins/emqx_auth_mysql.conf and points to your MySQL Database device_core
-3 - On RailWay Dashboard create a new service and deploy from your Repo .git URL ( example: )
-4 - Still in Rayldashboard go to "Settings" of your new EMQX service and create access for Networking.
-    Create first access to TCP PORT 18083 ( EMXQ Web Dashboard )
-    Click on TCP Proxy and point to 1883, railway generates another TCP PORT to you connect MQTT Clients and ZKONG Base Stations
-    Optional: You can create a custom Domain and points to the 1883 port, follow the Railway instructions.
+**1 - Clone this Repo to you Github Account
+**2 - Edit the file /etc/plugins/emqx_auth_mysql.conf and points to your MySQL Database device_core
+**3 - On RailWay Dashboard create a new service and deploy from your Repo .git URL ( example: )
+**4 - Still in Rayldashboard go to "Settings" of your new EMQX service and create access for Networking.
+    **Create first access to TCP PORT 18083 ( EMXQ Web Dashboard )
+    **Click on TCP Proxy and point to 1883, railway generates another TCP PORT to you connect MQTT Clients and ZKONG Base Stations
+    **Optional: You can create a custom Domain and points to the 1883 port, follow the Railway instructions.
     
