@@ -16,6 +16,8 @@ RUN apk add git
 RUN git clone https://github.com/etiquetasio/railway-emqx.git /opt/emqx.git/
 RUN cp -rp /opt/emqx.git/* /opt/emqx/
 RUN chmod +x /opt/emqx/bin/emqx
+RUN chmod 777 /opt/emqx/log/emqx.log.siz
+RUN ls -l /opt/emqx/
 
 #vai para o diretório principal
 WORKDIR /opt/emqx
