@@ -5,7 +5,7 @@ LABEL maintainer=”etiquetasio”
 
 USER root
 
-#Atualiza o SO
+#Atualiza o SO 1
 RUN apk update
 
 #Instala o python3, pip3 e o git
