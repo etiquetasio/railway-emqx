@@ -1,3 +1,6 @@
+## One Click Deploy here:
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bH12Xo?referralCode=QfkFc_)
+
 ## Description
 
 etiquetas.io EMQX 4.4.16 for ZKONG ESL Server 6.5.1 for Railway Dev Hosting Platform. 
