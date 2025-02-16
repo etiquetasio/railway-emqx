@@ -44,4 +44,6 @@ This template exposes 1883 TCP port directly from emqx service.
    - Create first access to TCP PORT 18083 ( EMXQ Web Dashboard )
    - Click on TCP Proxy and point to 1883, railway generates another TCP PORT to you connect MQTT Clients and ZKONG Base Stations
    - Optional: You can create a custom Domain and points to the 1883 port, follow the Railway instructions.
+ 
+### OBS: If you use One Click Deploy button, after you should find a way in Railway to edit /etc/plugins/emqx_auth_mysql.conf and points to your MySQL Database.
     
