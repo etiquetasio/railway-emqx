@@ -12,6 +12,7 @@ RUN apk update
 RUN apk add git
 
 #clona o APP
+RUN rm -rf /opt/emqx/
 RUN git clone https://github.com/etiquetasio/railway-emqx.git /opt/emqx/
 
 #vai para o diretório principal
