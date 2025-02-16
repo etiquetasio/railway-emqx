@@ -26,9 +26,6 @@ COPY docker-entrypoint.sh /usr/bin/
 
 #Expoe a porta 80 (apenas para documentação)
 EXPOSE 11883 18083 1883 4369 4370 5369 6369 6370 8081 8083 8084 8883
-
-# Entra na pasta do app (só é executado quando iniciamos o container)
-CMD [/opt/emqx/bin/emqx foreground]
 	
 USER emqx
 
