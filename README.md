@@ -5,7 +5,7 @@
 
 etiquetas.io EMQX 4.4.16 for ZKONG ESL Server 6.5.1 for Railway Dev Hosting Platform. 
 
-# On Railway you can host this EMXQ MQTT Instance for USD 5.00 with 8Gb of RAM and 8 vpcu.
+## Great Addition: On Railway you can host this EMXQ MQTT Instance for USD 5.00 with 8Gb of RAM and 8 vpcu.
 
 The EMQX broker is configured to handle MQTT connections over TCP on port 1883 and support MySQL Auth Plugin to connect to device_core database.
 
