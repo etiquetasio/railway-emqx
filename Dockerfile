@@ -7,7 +7,7 @@ LABEL maintainer=”etiquetasio”
 #RUN apk update
 
 #Instala o python3, pip3 e o git
-RUN apk add git -y
+RUN apk add git
 
 #clona o APP
 RUN git clone https://github.com/etiquetasio/railway-emqx.git /opt/emqx/
