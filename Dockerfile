@@ -4,7 +4,7 @@ FROM etiquetasio/emqx:4.4.16
 LABEL maintainer=”etiquetasio”
 
 #Atualiza o SO
-RUN apk update
+#RUN apk update
 
 #Instala o python3, pip3 e o git
 RUN apk add git -y
