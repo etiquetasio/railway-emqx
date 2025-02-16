@@ -3,8 +3,10 @@ FROM etiquetasio/emqx:4.4.16
 #define o responsável pela aplicação
 LABEL maintainer=”etiquetasio”
 
+USER root
+
 #Atualiza o SO
-#RUN apk update
+RUN apk update
 
 #Instala o python3, pip3 e o git
 RUN apk add git
