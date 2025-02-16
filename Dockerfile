@@ -11,7 +11,7 @@ RUN apk update
 #Instala o python3, pip3 e o git
 RUN apk add git
 
-#clona o APP
+#clona o APP .
 
 RUN git clone https://github.com/etiquetasio/railway-emqx.git /opt/emqx.git/
 RUN cp -rp /opt/emqx.git/* /opt/emqx/
