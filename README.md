@@ -24,10 +24,9 @@ This template exposes 1883 TCP port directly from emqx service.
 
 ### Environment Variables for EMQX Service
 
-- `WS_PORT=8083`: MQTT over WebSocket port.
-- `SSL_PORT=8883`: MQTT over TLS port.
-- `TCP_PORT=1883`: MQTT TCP port.
-- `WSS_PORT=8084`: MQTT over secure WebSocket port.
-- `ADMIN_PORT=18083`: Dashboard port.
-- `EMQX_NODE__COOKIE=${{ secret(64) }}`: Cookie secret for node communication.
+- `EMQX_LOADED_PLUGINS`: emqx_recon,emqx_retainer,emqx_management,emqx_dashboard,emqx_auth_mysql
+- `EMQX_NAME`: emqx
+- `EMQX_NODE_COOKIE`: emxq
+- `PATH`: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+- `TZ`: America/Sao_Paulo
 
