@@ -1,8 +1,5 @@
 FROM etiquetasio/emqx:4.4.16	
 
-
-FROM etiquetasio:emqx:4.4.16
-
 #define o responsável pela aplicação
 LABEL maintainer=”etiquetasio”
 
