@@ -1,5 +1,4 @@
-FROM docker.io:etiquetasio/emqx:4.4.16	
-
+FROM etiquetasio/emqx:4.4.16	
 
 
 FROM etiquetasio:emqx:4.4.16
