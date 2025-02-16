@@ -1,6 +1,8 @@
 ## Description
 
-This Railway template sets up an EMQX MQTT broker. The EMQX broker is configured to handle MQTT connections over TCP on port 1883. 
+etiquetas.io EMQX 4.4.16 for ZKONG ESL Server 6.5.1 for Railway Dev Hosting Platform. 
+
+The EMQX broker is configured to handle MQTT connections over TCP on port 1883 and support MySQL Auth Plugin to connect to device_core database.
 
 ## EMQX
 
@@ -28,4 +30,4 @@ This template exposes 1883 TCP port directly from emqx service.
 - `WSS_PORT=8084`: MQTT over secure WebSocket port.
 - `ADMIN_PORT=18083`: Dashboard port.
 - `EMQX_NODE__COOKIE=${{ secret(64) }}`: Cookie secret for node communication.
-- `EMQX_DASHBOARD__DEFAULT_PASSWORD=${{ secret(18) }}`: Admin password for the EMQX dashboard.
+
